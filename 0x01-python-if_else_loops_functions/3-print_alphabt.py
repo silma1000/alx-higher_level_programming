@@ -4,5 +4,5 @@ while start < end :
     if start == 101 or start == 113:
         start += 1
     else:
-        print(f"{chr(start)}",end="")
+        print("{}".format(chr(start)), end="")
     start += 1
